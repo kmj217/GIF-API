@@ -1,8 +1,15 @@
+* {
+    font-family: 'Comfortaa', cursive;
+}
 body {
-    background-image: url("../images/background2.jpg")
+    background-image: url("../images/background2.jpg");
+    margin: auto;
 }
 .h1 {
-    color: white
+    color: white;
+    left: 20px;
+    margin-left: 18em;
+    font-size: 1.6em;
 }
 
 #instructions {
@@ -15,6 +22,7 @@ body {
     color: rgb(77, 209, 77);
     border-radius: 10px;
     margin: 4px;
+    border-color: rgb(77, 209, 77)
 }
 
 #topic:hover {
@@ -28,4 +36,17 @@ p {
 img:hover {
     border: solid 2px whitesmoke;
     border-radius: 2px;
+}
+
+#addTopic {
+    background: rgba(1, 20, 43, 0.7);
+    color: rgb(77, 209, 77);
+    border-radius: 10px;
+    margin: 4px;
+    border-color: rgb(77, 209, 77);
+    margin-right: 18em;
+}
+
+#addTopic:hover {
+    color: white
 }

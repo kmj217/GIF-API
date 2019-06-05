@@ -32,8 +32,8 @@ $(document).ready(function() {
               image.attr("data-state", "still");
               image.attr("data-still", still);
               image.attr("data-animate", animated);
-              topicDiv.append(par);
               topicDiv.append(image);
+              topicDiv.append(par);
               $("#gifArea").prepend(topicDiv);
     
             }
