@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>80s Giphy API Search</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark">
+    <span class="navbar-brand mb-0 h1">80's Giphy Search</span>
+    <form class="form-inline my-2 my-lg-0" id="Search">
+            <label for="Input" id="instructions">Search the 80s!</label>
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="Input">
+            <button class="btn btn-outline-info" type="submit" id="addTopic">Search</button>
+          </form>
+        </div>
+</nav>
+
+<div class="container">
+        <div class="row">
+            <div class="btn-group inline pull-left">
+      <button class="btn btn-light" id="topic" data-search="Back To The Future">Back To The Future</button>
+      <button class="btn btn-light" id="topic" data-search="Blondie">Blondie</button>
+      <button class="btn btn-light" id="topic" data-search="Top Gun">Top Gun</button>
+      <button class="btn btn-light" id="topic" data-search="Knight Rider">Knight Rider</button>
+
+      <div id="myButtons"></div>
+    </div>
+  </div>
+</div>
+    
+
+<div class="container">
+    <div class="row">
+      <span><div id="gifArea"></div></span>
+  </div>
+</div>
+
+</body>
+</html>
